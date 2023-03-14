@@ -8,6 +8,8 @@ img {
 
 .principal {
     background-color: #cccccc;
+    margin-top: 5px;
+    padding: 30px;
 }
 
 h1 {
@@ -26,6 +28,21 @@ em strong {
     color: #cc0000;
 }
 
+.beneficios {
+    padding: 20px;
+}
+
 .beneficios h2 {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem__beneficios {
+    width: 50%;
 }
