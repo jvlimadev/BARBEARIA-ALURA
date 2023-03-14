@@ -47,6 +47,10 @@ ul {
     margin-right: 15%;
 }
 
+.itens {
+    font-style: italic;
+}
+
 .imagem__beneficios {
     width: 50%;
 }
