@@ -1,14 +1,46 @@
 <!DOCTYPE html />
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbearia Alura</title>
-</head>
-<body>
-    <h1>Sobre a Barbearia Alura</h1>
-    <p>Localizado no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes todos os dias.</p>
-    <p>Nossa missão é: "Propocionar auto-estima e qualidade de vida aos clientes" .</p>
-    <p>Oferecemos profissonais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes. </p>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Barbearia Alura</title>
+        <link rel="stylesheet" href="/src/css/index/cabecalho/cabecalho.css" />
+        <link rel="stylesheet" href="/src/css/index/banner/banner.css" />
+        <link rel="stylesheet" href="/src/css/index/sobre/sobre.css" />
+        <link rel="stylesheet" href="src/css/index/sobre/descricao.css" />
+        <link rel="stylesheet" href="src/css/index/beneficios/beneficios-titulo.css" />
+        <link rel="stylesheet" href="src/css/index/beneficios/beneficios-lista.css" />
+        <link rel="stylesheet" href="src/css/index/beneficios/beneficios-imagem.css" />
+        <link rel="stylesheet" href="src/css/index/rodape/rodape.css" />
+        <link rel="stylesheet" href="src/css/index/rodape/rodape-texto.css" />
+        <link rel="stylesheet" href="src/css/index/rodape/rodape-imagem.css" />
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1 class="cabecalho__titulo">Barbearia Alura</h1>
+        </header>
+        <img src="src/imagens/index/banner.jpg" alt="Imagem de barbearia com duas cadeiras de barbeiro" class="banner" />
+        <main class="sobre">
+            <h2 class="titulo__sobre">Sobre a Barbearia Alura</h2>
+            <p class="descricao">Localizado no coração da cidade a <strong>Barbearia Alura </strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes todos os dias. </p>
+            <p class="descricao"> <em>Nossa missão é: " <strong>Proporcionar auto estima e qualidade de vida aos clientes</strong> "</em> </p>
+            <p class="descricao">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes. </p>
+        </main>
+        <section class="beneficios">
+            <h2 class="beneficios__titulo">Benefícios</h2>
+            <ul class="beneficios__lista">
+                <li class="beneficios__item">Atendimento ao cliente</li>
+                <li class="beneficios__item">Espaço diferenciado</li>
+                <li class="beneficios__item">Localização</li>
+                <li class="beneficios__item">Profissionais Qualificados</li>
+            </ul>
+            <img src="src/imagens/index/beneficios.jpg" alt="barbeiro aparando a barba do cliente" class="beneficios__imagem" />
+        </section>
+        <a href="produtos.html">NEXT</a>
+        <footer class="rodape">
+            <img src="src/imagens/footer/logo-branco.png" alt="" class="rodape__imagem">
+            <p class="rodape__texto">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
+    </body>
 </html>

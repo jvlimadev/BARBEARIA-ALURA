@@ -1,0 +1,13 @@
+.produtos__items-link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.produtos__items-link:hover {
+    color: rgb(34, 34, 182);
+    text-decoration: underline;
+}

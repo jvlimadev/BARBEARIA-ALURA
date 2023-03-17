@@ -1,0 +1,19 @@
+.servicos__lista-items:hover {
+    border-color: rgb(34, 34, 182);
+}
+
+
+.servicos__lista-items:active {
+    border-color: #ff0000;
+}
+
+.servicos__lista-items {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    text-align: center;
+    width: 30%;
+}

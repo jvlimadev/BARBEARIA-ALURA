@@ -1,0 +1,9 @@
+.lista__items-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servicos__lista-items:hover
+.lista__items-titulo {
+    font-size: 35px;
+}
