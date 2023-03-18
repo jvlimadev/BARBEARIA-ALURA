@@ -1,0 +1,23 @@
+.container__lista-items {
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.container__lista-items:hover {
+    border-color: #343486;
+}
+
+.container__lista-items:active {
+    border-color: #169816;
+}
+
+.container__lista-items:hover 
+.lista__items-titulo {
+    font-size: 35px;
+}
