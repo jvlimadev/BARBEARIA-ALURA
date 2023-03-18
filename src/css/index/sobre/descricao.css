@@ -1,0 +1,7 @@
+.descricao:nth-child(3) {
+    font-size: 20px;
+}
+
+.descricao:nth-child(3) strong {
+    color: #ff0000;
+}
