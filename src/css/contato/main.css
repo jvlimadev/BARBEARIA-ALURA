@@ -1,0 +1,21 @@
+.contato {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.contato__form {
+    margin: 40px 0;
+}
+
+.contato__form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contato__form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
