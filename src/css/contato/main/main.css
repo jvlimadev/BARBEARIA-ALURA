@@ -1,0 +1,43 @@
+.contato {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.contato__formulario {
+    margin: 40px 0;
+}
+
+.contato__formulario-label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contato__formulario-input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;    
+}
+
+.contato__formulario-textarea {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.contato__check-paragrafo {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+
+.contato__radio-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato__checkbox {
+    display: block;
+    margin: 15px 0;
+}
