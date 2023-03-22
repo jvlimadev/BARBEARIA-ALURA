@@ -39,37 +39,38 @@
         <main class="contato">
             <form class="contato__formulario">
                 <label class="contato__formulario-label" for="nomesobrenome">Nome e Sobrenome</label>
-                <input class="contato__formulario-input" type="text" id="nomesobrenome"/>
+                <input class="contato__formulario-input" type="text" id="nomesobrenome" required/>
 
                 <label class="contato__formulario-label" for="email">Email</label>
-                <input class="contato__formulario-input" type="email" id="email"/>
+                <input class="contato__formulario-input" type="email" id="email" placeholder="seuemail@dominio.com"/>
 
                 <label class="contato__formulario-label" for="telefone">Telefone</label>
-                <input class="contato__formulario-input" type="number" id="telefone"/>
+                <input class="contato__formulario-input" type="tel" id="telefone" placeholder="+55 (xx) xxxxx-xxxx"/>
 
                 <label class="contato__formulario-label" for="mensagem">Mensagem</label>
                 <textarea class="contato__formulario-textarea" name="contato-mensagem" id="mensagem" cols="70" rows="10"></textarea>
-
+                
                 <div class="contato__check">
                     <p class="contato__check-paragrafo">Como prefere nosso contato?</p>
-
+                    
                     <label class="contato__radio-label" for="radio-email"><input type="radio" value="email" name="radio" id="radio-email">Email</label>
-
-                    <label class="contato__radio-label" for="radio-telefone"><input type="radio" value="telefone" name="radio" id="radio-telefone">Ligação</label>
-
+                    
+                    <label class="contato__radio-label" for="radio-telefone"><input type="radio" value="telefone" name="radio" id="radio-telefone" checked>Ligação</label>
+                    
                     <label class="contato__radio-label" for="radio-whatsapp"><input type="radio" value="whatsapp" name="radio" id="radio-whatsapp">WhatsApp</label>
                     
-                    <label class="contato__checkbox" for="checkbox"><input type="checkbox" id="checkbox">Gostaria de receber nossas novidades por email ?</label>
+                    <div class="contato__select">
+                        <p class="contato__select-paragrafo">Qual horário prefere ser atendido ?</p>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+                    
+                    <label class="contato__checkbox" for="checkbox"><input type="checkbox" id="checkbox" checked>Gostaria de receber nossas novidades por email ?</label>
                 </div>
 
-                <div class="contato__select">
-                    <p class="contato__select-paragrafo">Qual horário prefere ser atendido ?</p>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </div>
 
                 <input type="submit" value="Enviar Fomulário" />
             </form>
