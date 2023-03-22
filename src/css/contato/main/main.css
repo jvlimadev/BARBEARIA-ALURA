@@ -41,3 +41,12 @@
     display: block;
     margin: 15px 0;
 }
+
+.contato__select {
+    margin-bottom: 20px;
+}
+
+.contato__select-paragrafo {
+    font-size: 20px;
+    margin: 10px 0;
+}
