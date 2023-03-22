@@ -1,6 +1,6 @@
 .contato {
-    width: 940px;
     margin: 0 auto;
+    width: 940px;
 }
 
 .contato__formulario {
@@ -52,20 +52,36 @@
 }
 
 .btn__enviar {
-    width: 40%;
-    padding: 15px 0;
-    background-color: orange;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
+    background-color: #ffa230;
     border: none;
     border-radius: 5px;
-    text-transform: uppercase;
+    color: white;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-transform: uppercase;
     transition: 0.5s all ease-in-out;
+    width: 40%;
 }
 
 .btn__enviar:hover {
-    background-color: darkorange;
+    background-color: #dd7b04;
     transform: scale(1.2);
+}
+
+table {
+    margin: 20px 40px;
+}
+
+
+thead {
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
