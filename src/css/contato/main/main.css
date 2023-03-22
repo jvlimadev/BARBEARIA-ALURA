@@ -50,3 +50,22 @@
     font-size: 20px;
     margin: 10px 0;
 }
+
+.btn__enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.btn__enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
