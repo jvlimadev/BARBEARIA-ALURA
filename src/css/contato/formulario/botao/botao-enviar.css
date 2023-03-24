@@ -1,0 +1,18 @@
+.btn__enviar {
+    background-color: #ffa230;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    width: 40%;
+}
+
+.btn__enviar:hover {
+    background-color: #dd7b04;
+    transform: scale(1.2);
+}
