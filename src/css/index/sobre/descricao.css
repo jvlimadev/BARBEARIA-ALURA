@@ -1,7 +1,12 @@
-.descricao:nth-child(3) {
-    font-size: 20px;
+.descricao {
+    margin-bottom: 1em;    
 }
 
-.descricao:nth-child(3) strong {
+.descricao em {
+    font-style: italic;
+}
+
+.descricao em strong {
     color: #ff0000;
+    font-weight: bold;
 }
