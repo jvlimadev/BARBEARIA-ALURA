@@ -1,3 +1,8 @@
 .beneficios__imagem {
+    transition: 400ms;
     width: 60%;
+}
+
+.beneficios__imagem:hover {
+    opacity: 30%;
 }
