@@ -1,0 +1,38 @@
+.beneficios__items:first-child:before {
+    content: '📆';
+    margin-right: 2px;
+}
+
+.beneficios__items:nth-child(2)::before {
+    content: '🏪';
+    margin-right: 2px;
+}
+
+.beneficios__items:nth-child(3)::before {
+    content: '🌐';
+    margin-right: 2px;
+}
+
+.beneficios__items:nth-child(4)::before {
+    content: '✂';
+    margin-right: 2px;
+}
+
+.beneficios__items:nth-child(5)::before {
+    content: '⏰';
+    margin-right: 2px;
+}
+
+
+.beneficios__items:nth-child(6)::before {
+    content: '🧹';
+    margin-right: 2px;
+}
+
+.beneficios__items{
+    line-height: 1.5;
+}
+
+.beneficios__items:first-child {
+    font-weight: bold;
+}

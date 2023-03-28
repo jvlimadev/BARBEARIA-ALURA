@@ -22,17 +22,22 @@
 
 
         <link rel="stylesheet" href="src/css/index/banner/banner.css" />
+
+        <link rel="stylesheet" href="src/css/index/sobre/container-sobre.css" />
         <link rel="stylesheet" href="src/css/index/sobre/utensilios.css" />
-        <link rel="stylesheet" href="src/css/index/sobre/sobre.css" />
         <link rel="stylesheet" href="src/css/index/sobre/sobre-titulo.css" />
         <link rel="stylesheet" href="src/css/index/sobre/descricao.css" />
-
+        
+        <link rel="stylesheet" href="src/css/index/mapa/mapa.css" />
+        <link rel="stylesheet" href="src/css/index/mapa/mapa-conteudo.css" />
         <link rel="stylesheet" href="src/css/index/mapa/mapa-titulo.css" />
         <link rel="stylesheet" href="src/css/index/mapa/mapa-descricao.css" />
 
         <link rel="stylesheet" href="src/css/index/beneficios/beneficios.css" />
+        <link rel="stylesheet" href="src/css/index/beneficios/beneficios-conteudo.css" />
         <link rel="stylesheet" href="src/css/index/beneficios/beneficios-titulo.css" />
         <link rel="stylesheet" href="src/css/index/beneficios/beneficios-lista.css" />
+        <link rel="stylesheet" href="src/css/index/beneficios/beneficios-items.css" />
         <link rel="stylesheet" href="src/css/index/beneficios/beneficios-imagem.css" />
         <link rel="stylesheet" href="src/css/index/video/video.css" />
         <link rel="stylesheet" href="src/css/index/rodape/rodape.css" />
@@ -73,27 +78,32 @@
                     <p class="mapa__desccricao">
                         Nosso estabelecimento está localizado no coração da cidade
                     </p>
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468020.17184621945!2d-47.025159177694356!3d-23.58971088464426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1spt-BR!2sbr!4v1679707723743!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+
+                    <div class="mapa__conteudo">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468020.17184621945!2d-47.025159177694356!3d-23.58971088464426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1spt-BR!2sbr!4v1679707723743!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
                 </section>
 
                 <section class="beneficios">
+                    <div class="beneficios__conteudo">
                         <h2 class="beneficios__titulo">Benefícios</h2>
                         <ul class="beneficios__lista">
                             <li class="beneficios__items"> <em>Atendimento aos Clientes</em> </li>
                             <li class="beneficios__items"> <em>Espaço diferenciado</em> </li>
                             <li class="beneficios__items"> <em>Localização</em> </li>
                             <li class="beneficios__items"> <em>Profissionais Qualificados</em> </li>
-                        </ul>
-                        <img src="src/imagens/index/beneficios.jpg" alt="barbeiro fazendo a barba de um cliente" class="beneficios__imagem" />
+                            <li class="beneficios__items"> <em>Pontualidade</em> </li>
+                            <li class="beneficios__items"> <em>limpeza</em> </li>
+                        </ul><img src="src/imagens/index/beneficios.jpg" alt="barbeiro fazendo a barba de um cliente" class="beneficios__imagem" />
 
                         <div class="video">
-                            
-                        <iframe 
-                            width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
+                            <iframe 
+                                width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
                         </div>
+                    </div>
                 </section>
         </main>
         <footer class="rodape">
