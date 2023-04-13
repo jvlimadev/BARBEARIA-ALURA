@@ -36,3 +36,9 @@
 .beneficios__items:first-child {
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+    .beneficios__items {
+        display: block;
+    }
+}

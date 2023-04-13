@@ -4,3 +4,9 @@
 
     padding: 2em 0;
 }
+
+@media screen and (max-width: 480px) {
+    .mapa__conteudo {
+        width: auto;
+    }
+}

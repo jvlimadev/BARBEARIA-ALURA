@@ -3,3 +3,9 @@
     right: 0;
     top: 115px;
 }
+
+@media screen and (max-width: 480px) {
+    .navegacao__lista {
+        position: static;
+    }
+}

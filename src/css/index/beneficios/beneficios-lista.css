@@ -3,3 +3,11 @@
     vertical-align: top;
     width: 40%;
 }
+
+
+@media screen and (max-width: 480px) {
+    .beneficios__lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
